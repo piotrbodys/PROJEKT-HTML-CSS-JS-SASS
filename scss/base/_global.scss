@@ -8,6 +8,23 @@ body {
 
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: $secondary-font;
+    color: $secondary-color;
+}
+
+h2 {
+    font-size: 420px;
+}
+
+a {
+    transition: all .3s;
+}
+
+section {
+    padding: 30px 0;
+
+}
 
 
 .container {
@@ -18,12 +35,20 @@ body {
 }
 
 
+
+
 @media all and (min-width: $large) {
 
     .container{
         max-width: $large-container;
     }
+
+    section {
+        padding: 60px 0;
+    }
+    
 }
+
 
 @media all and (min-width: $extra-large) {
 
