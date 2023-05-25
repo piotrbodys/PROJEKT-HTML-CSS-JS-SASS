@@ -1,11 +1,11 @@
 @import 'utils/variables';
-@import 'utilis/mixins';
+@import 'utils/mixins';
 
 
 @import 'base/normalize';
 @import 'base/global';
 
-
+@import 'layout/grid';
 @import 'layout/nav';
 @import 'layout/header';
 @import 'layout/about';

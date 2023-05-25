@@ -12,6 +12,8 @@
 </head>
 <body>
 
+    <!-- SASS to jest pre-procesor CSS.  SASS moze w CSS wprowadzac logike pod postacia zmiennych, mixin. Chodzi o to aby zautomatyzowac zarzadzanie tymi samymi wlasciwosciami powtarzajacymi sie w aplikacji np. jesli w aplikacji mamy kilkadziesiat elementow i kazdy ma ten sam kolor, to mozemy stworzyc zmienna ktora przechowuje ten kolor i ktora wstawiamy do ostylowania wielu roznych elementow. Dzieki temu jesli ktos w polowie projektu chce zmienic kolor na czerwony to nie musi zmieniac kilkudziesieciu linijek kodu, wystarczy ze zmieni wartosc pojedynczej zmiennej. Mixiny to jest zbior wartosci ktore sie powtarzaja np.wlasciwosci flexboxa. tworzymy mixina ktory zawiera 5 wlasciwosci i wstawiamy jego nazwe tam gdzie potrzebujemy uzyc flexboxa. -->
+
     <nav class="main-nav">
         <div class="container">
             <div class="main-nav-holder">
@@ -66,6 +68,141 @@
             <p class="about-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et optio quam voluptatem provident earum ab libero, laboriosam voluptates sequi ex rem tempora eius ea ullam. Dolores assumenda ipsum aperiam.</p>
             <a href="" class="btn-primary">Read more</a>
 
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="row">
+            <a href="" class="service col col-md-50p col-lg-25p">
+                <img src="img/services-bg-1.pg" alt="Services 1">
+                <div class="services-overlay">
+                    <img src="img/icons-spa.png" alt="Icon spa">
+                    <h3>Body treatment</h3>
+                </div>
+            </a>
+            <a href="" class="service col col-md-50p col-lg-25p">
+                <img src="img/services-bg-2.pg" alt="Services 2">
+                <div class="services-overlay">
+                    <img src="img/icons-spa.png" alt="Icon spa">
+                    <h3>Body treatment</h3>
+                </div>
+            </a>
+            <a href="" class="service col col-md-50p col-lg-25p">
+                <img src="img/services-bg-3.pg" alt="Services 3">
+                <div class="services-overlay">
+                    <img src="img/icons-spa.png" alt="Icon spa">
+                    <h3>Body treatment</h3>
+                </div>
+            </a>
+            <a href="" class="service col col-md-50p col-lg-25p">
+                <img src="img/services-bg-4.pg" alt="Services 4">
+                <div class="services-overlay">
+                    <img src="img/icons-spa.png" alt="Icon spa">
+                    <h3>Body treatment</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="procedures" class="procedures">
+        <div class="container">
+            <header class="section-header">
+                <h2>popular Precedures</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum exercitationem aliquid modi similique, ipsam nisi.</p>
+                
+            </header>
+
+            <div class="row">
+                <div class="infobox col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/procedures-bg-1.jpg" alt="Procedure 1">
+                        <h3>Massasje Therapy</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque corporis optio ratione ut similique dolorem.</p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                </div>
+                <div class="infobox col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/procedures-bg-2.jpg" alt="Procedure 2">
+                        <h3>Massasje Therapy</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque corporis optio ratione ut similique dolorem.</p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                    <div class="infobox col-md-33p">
+                        <div class="infobox-inner">
+                            <img src="img/procedures-bg-3.jpg" alt="Procedure 3">
+                            <h3>Massasje Therapy</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque corporis optio ratione ut similique dolorem.</p>
+                            <a href="" class="btn-secondary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <header class="section-header">
+                <h2>Experienced team</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum exercitationem aliquid modi similique, ipsam nisi.</p>
+                
+            </header>
+
+            <div class="row">
+                <div class="infobox-team col-md-33p">
+
+                    <div class="infobox-inner">
+                        <img src="img/procedures-bg-1.jpg" alt="Procedure 1">
+                        <h3>Massasje Therapy</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque corporis optio ratione ut similique dolorem.</p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                </div>
+                <div class="infobox col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/team-1.jpg" alt="Team member 1">
+                        <div class="infobox-team-caption">
+                            <h3>Jenny Austin</h3>
+                            <p>Thai Massasje</p>
+                            <div class="team-social-icons">
+                                <a href=""><i class="fab fa-facebook-f"></i>/a>
+                                <a href=""><i class="fab fa-twitter"></i>/a>
+                                <a href=""><i class="fab fa-instagram"></i>/a>
+                            </div>
+                        </div>
+                        
+                </div>
+                <div class="infobox col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/team-2.jpg" alt="Team member 2">
+                        <div class="infobox-team-caption">
+                            <h3>Jenny Austin</h3>
+                            <p>Thai Massasje</p>
+                            <div class="team-social-icons">
+                                <a href=""><i class="fab fa-facebook-f"></i>/a>
+                                <a href=""><i class="fab fa-twitter"></i>/a>
+                                <a href=""><i class="fab fa-instagram"></i>/a>
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <div class="infobox col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/team-3.jpg" alt="Team member 3">
+                        <div class="infobox-team-caption">
+                            <h3>Jenny Austin</h3>
+                            <p>Thai Massasje</p>
+                            <div class="team-social-icons">
+                                <a href=""><i class="fab fa-facebook-f"></i>/a>
+                                <a href=""><i class="fab fa-twitter"></i>/a>
+                                <a href=""><i class="fab fa-instagram"></i>/a>
+                            </div>
+                        </div>
+                        
+                </div>
         </div>
     </section>
 
